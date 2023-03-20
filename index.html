@@ -19,8 +19,8 @@
 
 <body>
 	<!-- ==== header ==== -->
-	<header id="header">
-		<div class="container">
+	<header id="header" class="active">
+		<nav class="container">
 			<a href="#hero" class="logo">
 				Port<span>fólio</span>
 			</a>
@@ -37,10 +37,51 @@
 				<ion-icon name="close-outline" class="close_icon"></ion-icon>
 			</ul>
 			<ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
-		</div>
+		</nav>
 	</header>
 
-	<!-- ==== hero section ==== -->
+	<main>
+		<!-- ==== hero section ==== -->
+		<section class="hero section" id="hero">
+			<div class="hero_container container grid">
+				<div class="hero_content">
+					<h4>Olá, meu nome é <br>
+						<span>Daiana de Paula</span>
+					</h4>
+					<h1>Eu sou
+						<span class="typed"></span>
+					</h1>
+					<p>
+						Eu sou muito apaixonada e dedicada ao meu trabalho.
+						Venha conhecer!
+					</p>
+					<div class="hero_social">
+						<a href="https://www.linkedin.com/in/daianadepaula/" target="_blank">
+							<ion-icon name="logo-linkedin"></ion-icon>
+						</a>
+						<a href="https://github.com/daianaadepaula" target="_blank">
+							<ion-icon name="logo-github"></ion-icon>
+						</a>
+						<a href="https://www.instagram.com/daianaadepaula_/" target="_blank">
+							<ion-icon name="logo-instagram"></ion-icon>
+						</a>
+						<a href="tel:+5521974435259" target="_blank">
+							<ion-icon name="call-outline"></ion-icon>
+						</a>
+					</div>
+					<a href="./src/currículo-daiana.pdf" class="btn" target="_blank">
+						Download CV
+						<ion-icon name="cloud-download-outline"></ion-icon>
+					</a>
+				</div>
+				<div class="hero_img">
+					<img class="img-fluid" src="./src/image/hero.jpg" alt="imagem de uma mulher trabalhando">
+				</div>
+			</div>
+		</section>
+
+	</main>
+
 	<!-- ==== about section ==== -->
 	<!-- ==== project section ==== -->
 	<!-- ==== footer ==== -->

@@ -17,3 +17,11 @@ menuLinks.forEach((menuLink) => {
 		navbarMenu.classList.remove('active');
 	})
 })
+
+//change background header
+function scrollHeader(){
+	const header = document.getElementById('header');
+	this.scrolly >= 20 ? header.classList.add('active') : header.classList.remove('active');
+}
+
+window.addEventListener('scroll', scrollHeader);
