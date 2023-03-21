@@ -114,6 +114,7 @@ header .container {
 
 .hero_container {
   align-items: center;
+  margin-top: 15px;
 }
 
 .hero_container h4 {
@@ -132,7 +133,6 @@ header .container {
 .hero_container h1 {
   font-size: 40px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
   white-space: nowrap;
   margin-bottom: 10px;
   color: var(--title-color);
@@ -185,5 +185,16 @@ header .container {
 }
 
 /* ==== about section ==== */
+.about_container {
+  column-gap: 0;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.about_content p {
+  color: #333;
+  margin: 20px 0 15px;
+}
+
 /* ==== project section ==== */
 /* ==== footer ==== */

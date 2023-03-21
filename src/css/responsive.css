@@ -35,13 +35,16 @@
 /* ==== hero section ==== */
 @media screen and (max-width: 768px) {
   .hero_content h4 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .hero_content h1 {
-    font-size: 32px;
+    font-size: 30px;
+  }
+  .hero_content h1 span {
+    font-size: 30px;
   }
   .hero_content p {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -62,6 +65,20 @@
     text-align: center;
   }
 }
+
 /* ==== about section ==== */
+@media screen and (max-width: 992px) {
+  .about_container {
+    grid-template-columns: 3fr 2fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about_container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+  }
+}
 /* ==== project section ==== */
 /* ==== footer ==== */
