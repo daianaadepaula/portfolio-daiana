@@ -71,6 +71,9 @@
   .about_container {
     grid-template-columns: 3fr 2fr;
   }
+  .about_img img {
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -80,6 +83,13 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .about_img img {
+    width: 300px;
+  }
+}
+
 /* ==== project section ==== */
 @media screen and (max-width: 992px) {
   .portfolio_wrap-container {
@@ -96,5 +106,3 @@
     font-size: 16px;
   }
 }
-
-/* ==== footer ==== */
