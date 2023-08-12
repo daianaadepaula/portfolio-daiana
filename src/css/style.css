@@ -304,6 +304,8 @@ header .container {
 
 .portfolio_info p {
   text-transform: uppercase;
+  padding: 0 25px;
+  text-align: center;
 }
 
 .portfolio_info a {
